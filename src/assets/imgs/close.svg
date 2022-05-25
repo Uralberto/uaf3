@@ -1,0 +1,25 @@
+ <svg
+            id="equix"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 30 30"
+          >
+            <g className="burger-paths" transform="translate(1.5 2.121)">
+              <path
+                id="linea4"
+                strokeLinecap="round"
+                stroke="#2337f1"
+                strokeWidth="3px"
+                d="M0,0H30"
+                transform="translate(25.107 0) rotate(135)"
+              />
+
+              <path
+                id="linea5"
+                strokeLinecap="round"
+                stroke="#272839"
+                strokeWidth="3px"
+                d="M0,0H30"
+                transform="translate(3.893 0.393) rotate(45)"
+              />
+            </g>
+          </svg>

@@ -1,0 +1,160 @@
+<svg id="eslogan2" xmlns="http://www.w3.org/2000/svg" width="670" height="40" viewBox="0 0 670 40">
+
+
+<style>
+line{
+  stroke-width: 2px
+}
+
+.lineas{
+animation: animarLineas 10s ease-in-out 100 ;
+transform-box: fill-box;
+overflow: hidden;
+}
+
+@keyframes animarLineas{
+    0%{
+    transform: translate(539px, -40px);
+    }
+    40%{
+      transform: translate(539px, -20px);
+    }
+    60%{
+      transform: translate(539px, -20px);
+    }
+    100%{
+    transform: translate(539px, 0px);
+    }
+}
+
+.lineas2{
+  animation: animarLineas2 10s ease-in-out 100 ;
+  overflow: hidden;
+  }
+  
+  @keyframes animarLineas2{
+      0%{
+      transform: translate(539px, 0px);
+      }
+      40%{
+        transform: translate(539px, 20px);
+      }
+      60%{
+        transform: translate(539px, 20px);
+      }
+      100%{
+      transform: translate(539px, 40px);
+      }
+  }
+
+.cuadritos{
+animation: animarCuadritos 10s ease-in-out 100;
+transform-box: fill-box;
+overflow: hidden;
+}
+
+@keyframes animarCuadritos{
+    0%{
+    transform: translate(0px, -30px);
+    }
+    40%{
+      transform: translate(0px, 10px);
+    }
+    60%{
+      transform: translate(0px, 10px);
+    }
+    100%{
+    transform: translate(0px, 30px);
+    }
+}
+
+#texto-eslogan{
+  animation: animarTexto 10s ease-in-out 100; 
+  letter-spacing: 1px;
+  font-size: 1.6rem
+}
+
+@keyframes animarTexto{
+      0%{
+      transform: translate(0px, -40px);
+      }
+      40%{
+        transform: translate(0px, 8px);
+      }
+      60%{
+        transform: translate(0px, 8px);
+      }
+      100%{
+      transform: translate(0px, 40px);
+      }
+  }
+
+
+</style>
+
+
+  <path id="rectangulo" data-name="Trazado 6" d="M0,0H670V40H0Z" fill="#21261f"/>
+  <text id="texto-eslogan" data-name="1    const  desarrolloFrontend = &apos;  ok  &apos;" transform="translate(15.833 8)" fill="#cebdbd" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="21">1</tspan><tspan y="21" font-family="Roboto-Italic, Roboto" font-style="italic"> </tspan><tspan y="21" xml:space="preserve" fill="#2b2bf6" font-family="Roboto-Italic, Roboto" font-style="italic">   </tspan><tspan y="21" fill="#11d6ff" font-family="Roboto-Italic, Roboto" font-style="italic">const</tspan><tspan y="21" fill="#11d6ff"> </tspan><tspan y="21"> </tspan><tspan y="21" fill="#dccfcf">desarrolloFrontend</tspan><tspan y="21" xml:space="preserve"> = </tspan><tspan y="21" xml:space="preserve" fill="#f7cd52">&apos;  ok  &apos;</tspan></text>
+  <g  class= "lineas" id="vsc" transform="translate(539)">
+    <line  id="Línea_21" data-name="Línea 21" x2="29" transform="translate(8.5 12.5)" fill="none" stroke="#11d6ff" stroke-width="1"/>
+    <line id="Línea_25" data-name="Línea 25" x2="14" transform="translate(8.072 4.085)" fill="none" stroke="#11d6ff" stroke-width="1"/>
+    <line id="Línea_27" data-name="Línea 27" x2="29.371" transform="translate(27.281 4.085)" fill="none" stroke="#f6fafb" stroke-width="1"/>
+    <line id="Línea_28" data-name="Línea 28" x2="28.371" transform="translate(27.329 8.188)" fill="none" stroke="#f6fafb" stroke-width="1"/>
+    <line id="Línea_46" data-name="Línea 46" x2="29.547" transform="translate(33.5 22.5)" fill="none" stroke="#f6fafb" stroke-width="1"/>
+    <line id="Línea_48" data-name="Línea 48" x2="22.536" transform="translate(78.5 22.5)" fill="none" stroke="#f6fafb" stroke-width="1"/>
+    <line id="Línea_36" data-name="Línea 36" x2="13" transform="translate(43.822 19.051)" fill="none" stroke="#f6fafb" stroke-width="1"/>
+    <line id="Línea_38" data-name="Línea 38" x2="13" transform="translate(16.197 29.154)" fill="none" stroke="#f6fafb" stroke-width="1"/>
+    <line id="Línea_29" data-name="Línea 29" x2="56.585" transform="translate(7.93 16.291)" fill="none" stroke="#f6fafb" stroke-width="1"/>
+    <line id="Línea_34" data-name="Línea 34" x2="9" transform="translate(15.747 22.051)" fill="none" stroke="#ff0016" stroke-width="1"/>
+    <line id="Línea_42" data-name="Línea 42" x2="9" transform="translate(18.808 19.051)" fill="none" stroke="#ff0016" stroke-width="1"/>
+    <line id="Línea_43" data-name="Línea 43" x2="9" transform="translate(18.808 32.256)" fill="none" stroke="#ff0016" stroke-width="1"/>
+    <line id="Línea_39" data-name="Línea 39" x2="9" transform="translate(24.19 26.154)" fill="none" stroke="#ff0016" stroke-width="1"/>
+    <line id="Línea_47" data-name="Línea 47" x2="9" transform="translate(61.326 22.5)" fill="none" stroke="#ff0016" stroke-width="1"/>
+    <line id="Línea_40" data-name="Línea 40" x2="9" transform="translate(30.067 29.154)" fill="none" stroke="#10f" stroke-width="1"/>
+    <line id="Línea_26" data-name="Línea 26" x2="14" transform="translate(8.072 8.188)" fill="none" stroke="#11d6ff" stroke-width="1"/>
+    <line id="Línea_45" data-name="Línea 45" x2="14" transform="translate(8.072 26.5)" fill="none" stroke="#11d6ff" stroke-width="1"/>
+    <line id="Línea_23" data-name="Línea 23" x1="8" transform="translate(78.5 12.5)" fill="none" stroke="#d99b0b" stroke-width="1"/>
+    <line id="Línea_35" data-name="Línea 35" x2="9.5" transform="translate(29.649 19.051)" fill="none" stroke="#d99b0b" stroke-width="1"/>
+    <line id="Línea_41" data-name="Línea 41" x2="9.5" transform="translate(19 36.256)" fill="none" stroke="#d99b0b" stroke-width="1"/>
+    <line id="Línea_44" data-name="Línea 44" x2="9.5" transform="translate(29.649 32.256)" fill="none" stroke="#d99b0b" stroke-width="1"/>
+    <line id="Línea_37" data-name="Línea 37" x2="9.5" transform="translate(34.218 26.051)" fill="none" stroke="#d99b0b" stroke-width="1"/>
+    <line id="Línea_22" data-name="Línea 22" x2="31" transform="translate(43.5 12.5)" fill="none" stroke="#11ff31" stroke-width="0.5"/>
+    <line id="Línea_49" data-name="Línea 49" x2="52" transform="translate(50.5 26.5)" fill="none" stroke="#11ff31" stroke-width="0.5"/>
+    <rect id="Rectángulo_6" data-name="Rectángulo 6" width="115" height="40" fill="none"/>
+  </g>
+  <g class= "lineas2" id="vsc" transform="translate(539)">
+    <line  id="Línea_21" data-name="Línea 21" x2="29" transform="translate(8.5 12.5)" fill="none" stroke="#11d6ff" stroke-width="1"/>
+    <line id="Línea_25" data-name="Línea 25" x2="14" transform="translate(8.072 4.085)" fill="none" stroke="#11d6ff" stroke-width="1"/>
+    <line id="Línea_27" data-name="Línea 27" x2="29.371" transform="translate(27.281 4.085)" fill="none" stroke="#f6fafb" stroke-width="1"/>
+    <line id="Línea_28" data-name="Línea 28" x2="28.371" transform="translate(27.329 8.188)" fill="none" stroke="#f6fafb" stroke-width="1"/>
+    <line id="Línea_46" data-name="Línea 46" x2="29.547" transform="translate(33.5 22.5)" fill="none" stroke="#f6fafb" stroke-width="1"/>
+    <line id="Línea_48" data-name="Línea 48" x2="22.536" transform="translate(78.5 22.5)" fill="none" stroke="#f6fafb" stroke-width="1"/>
+    <line id="Línea_36" data-name="Línea 36" x2="13" transform="translate(43.822 19.051)" fill="none" stroke="#f6fafb" stroke-width="1"/>
+    <line id="Línea_38" data-name="Línea 38" x2="13" transform="translate(16.197 29.154)" fill="none" stroke="#f6fafb" stroke-width="1"/>
+    <line id="Línea_29" data-name="Línea 29" x2="56.585" transform="translate(7.93 16.291)" fill="none" stroke="#f6fafb" stroke-width="1"/>
+    <line id="Línea_34" data-name="Línea 34" x2="9" transform="translate(15.747 22.051)" fill="none" stroke="#ff0016" stroke-width="1"/>
+    <line id="Línea_42" data-name="Línea 42" x2="9" transform="translate(18.808 19.051)" fill="none" stroke="#ff0016" stroke-width="1"/>
+    <line id="Línea_43" data-name="Línea 43" x2="9" transform="translate(18.808 32.256)" fill="none" stroke="#ff0016" stroke-width="1"/>
+    <line id="Línea_39" data-name="Línea 39" x2="9" transform="translate(24.19 26.154)" fill="none" stroke="#ff0016" stroke-width="1"/>
+    <line id="Línea_47" data-name="Línea 47" x2="9" transform="translate(61.326 22.5)" fill="none" stroke="#ff0016" stroke-width="1"/>
+    <line id="Línea_40" data-name="Línea 40" x2="9" transform="translate(30.067 29.154)" fill="none" stroke="#10f" stroke-width="1"/>
+    <line id="Línea_26" data-name="Línea 26" x2="14" transform="translate(8.072 8.188)" fill="none" stroke="#11d6ff" stroke-width="1"/>
+    <line id="Línea_45" data-name="Línea 45" x2="14" transform="translate(8.072 26.5)" fill="none" stroke="#11d6ff" stroke-width="1"/>
+    <line id="Línea_23" data-name="Línea 23" x1="8" transform="translate(78.5 12.5)" fill="none" stroke="#d99b0b" stroke-width="1"/>
+    <line id="Línea_35" data-name="Línea 35" x2="9.5" transform="translate(29.649 19.051)" fill="none" stroke="#d99b0b" stroke-width="1"/>
+    <line id="Línea_41" data-name="Línea 41" x2="9.5" transform="translate(19 36.256)" fill="none" stroke="#d99b0b" stroke-width="1"/>
+    <line id="Línea_44" data-name="Línea 44" x2="9.5" transform="translate(29.649 32.256)" fill="none" stroke="#d99b0b" stroke-width="1"/>
+    <line id="Línea_37" data-name="Línea 37" x2="9.5" transform="translate(34.218 26.051)" fill="none" stroke="#d99b0b" stroke-width="1"/>
+    <line id="Línea_22" data-name="Línea 22" x2="31" transform="translate(43.5 12.5)" fill="none" stroke="#11ff31" stroke-width="0.5"/>
+    <line id="Línea_49" data-name="Línea 49" x2="52" transform="translate(50.5 26.5)" fill="none" stroke="#11ff31" stroke-width="0.5"/>
+    <rect id="Rectángulo_6" data-name="Rectángulo 6" width="115" height="40" fill="none"/>
+  </g>
+
+ <g class="cuadritos">
+  <path id="Trazado_7" data-name="Trazado 7" d="M0,0H4V10H0Z" transform="translate(664)" fill="#ff0016"/>
+  <path id="Trazado_8" data-name="Trazado 8" d="M0,0H4V10H0Z" transform="translate(664 13)" fill="#11d6ff"/>
+  <path id="Trazado_9" data-name="Trazado 9" d="M0,0H4V10H0Z" transform="translate(664 30)" fill="#11ff31"/>
+  </g>
+
+  
+</svg>
