@@ -1,4 +1,4 @@
-**# uaf3**
+**uaf3**
 
 El repositorio **uaf3** guarda mi tercer sitio web personal construido totalmente con la librería **React**. Reemplaza a **uaf2**, el repositorio de mi segundo sitio, subido a la red a mediados de 2021. **Uaf2** es _Html_, _Css_ y _JavaScript_ puro, con efectos de animación declarados con piezas de código _JavaScript_, principalmente. **uaf2** y **uaf3** son muy afines en diseño excepto la pagina que despliega mi perfil que ahora tiene una presentación menos aburrida a través del uso de elementos gráficos. También hay pequeñas ediciones en casi todos los contenidos de texto que obedecen a una mejor redacción y a la descripción de ajustes realizados a ciertos contenidos gráficos.
 

@@ -262,11 +262,8 @@ const TeCuentoCuerpo = () => {
           <p>
             Si deseas explorar aún más sobre este nuevo sitio web te propongo
             visitar{" "}
-            <MyA
-              href="https://github.com/Uralberto/Uralberto.github.io/uaf3"
-              target="_blank"
-            >
-              <i>uralberto.github.io/uaf3</i>
+            <MyA href="https://github.com/Uralberto/uaf3" target="_blank">
+              <i>github.com/Uralberto/uaf3</i>
             </MyA>
           </p>
           <FlechaArriba href="#head">
