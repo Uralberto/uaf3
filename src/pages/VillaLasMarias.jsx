@@ -31,7 +31,7 @@ const VillaLasMarias = () => {
             <h6>Marzo/2022</h6>
             <p>
               En 1999 adquirimos en familia un pequeño lote rural pensando en un
-              espacio de encuentro. Luego nos dimos a la tarea de pensar ideas
+              espacio de encuentro. Luego nos dimos a la tarea de explorar ideas
               para financiarlo. Solo hasta el 2005 vimos la opción de iniciar su
               construcción.
             </p>

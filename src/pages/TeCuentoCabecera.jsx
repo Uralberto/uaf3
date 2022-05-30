@@ -29,7 +29,7 @@ const TeCuentoCabecera = () => {
           <h1>Te cuento</h1>
           <h6>Marzo/2022</h6>
           <p>
-            Sigo en un asunto que dí por muerto. En algo que ganó mi atención
+            Sigo en un asunto que había dado por muerto. Un asunto que cautivó mi atención
             cuando inicié universidad en 1981. Le decíamos “programar”, como
             ahora. Alcanzo a recordar el lenguaje de programación{" "}
             <i>Fortran IV</i> que usaba para resolver, por ejemplo, ecuaciones
