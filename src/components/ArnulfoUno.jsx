@@ -3,7 +3,6 @@ import { Link, Redirect } from "react-router-dom";
 import styled, { keyframes } from "styled-components";
 import BtnPlay from "@components/BtnPlay";
 import BtnPause from "@components/BtnPause";
-import laminaOxidada from "@imgs/laminaOxidada.png";
 
 const ArnulfoSvg = () => {
   const [isAnimationUnoOn, setIsAnimationUnoOn] = useState(false);
@@ -1829,7 +1828,6 @@ const DivSvgArnulfo = styled.div`
 `;
 
 const SvgArnulfo = styled.svg`
-  /* background-image: url(${laminaOxidada}); */
   background-color: ${colorDarkBlue1a};
   background-size: cover;
 

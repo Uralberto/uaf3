@@ -30,6 +30,10 @@ module.exports = {
         exclude: /node_modules/,
         use: {
           loader: "babel-loader",
+          options: {
+            presets: ['@babel/preset-env', '@babel/preset-react']
+          }
+
         },
       },
       {
@@ -61,6 +65,7 @@ module.exports = {
     }),
   ],
   devServer: {
+    static: path.join(__dirname, "dist"),
     port: 8080, //agregado
     historyApiFallback: true,
     hot: true, //Agregado
