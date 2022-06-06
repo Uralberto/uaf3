@@ -7,7 +7,6 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
-    publicPath: "/",
   },
   mode: "development",
   resolve: {
@@ -31,7 +30,7 @@ module.exports = {
         use: {
           loader: "babel-loader",
           options: {
-            presets: ['@babel/preset-env', '@babel/preset-react']
+            presets: ["@babel/preset-env", "@babel/preset-react"],
           }
 
         },
@@ -57,8 +56,10 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./public/index.html",
-      filename: "./index.html",
+      // template: "./public/index.html",
+      template: path.join(__dirname, "./public/index.html"),
+
+      // filename: "./index.html",
     }),
     new MiniCssExtractPlugin({
       filename: "[name].css",
