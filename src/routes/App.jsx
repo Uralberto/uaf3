@@ -23,7 +23,7 @@ import Header from "../components/Header";
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}  >
         <EstilosGlobales />
         <Switch>
           <Route exact path="/" component={Home} />
