@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/uaf3/static/js/main.647d4a11.js",
+    "main.js": "/uaf3/static/js/main.50b4d17b.js",
     "static/media/miCuaderno1982.png": "/uaf3/static/media/miCuaderno1982.68071d6ae95aad97965b.png",
     "static/media/isometricaVlm.png": "/uaf3/static/media/isometricaVlm.1a59cad8862ec999e818.png",
     "static/media/vlm2018.png": "/uaf3/static/media/vlm2018.99cc98a9d7aa742db3ea.png",
@@ -35,9 +35,9 @@
     "static/media/vue.svg": "/uaf3/static/media/vue.4ca991bee2dfbcb9668e4230a958bc7f.svg",
     "static/media/persiana2.svg": "/uaf3/static/media/persiana2.d9498621c97207a9151f5207cbd2cea1.svg",
     "static/media/persiana1.svg": "/uaf3/static/media/persiana1.7b6f9f6268ecbb8288e3f1bead977c97.svg",
-    "main.647d4a11.js.map": "/uaf3/static/js/main.647d4a11.js.map"
+    "main.50b4d17b.js.map": "/uaf3/static/js/main.50b4d17b.js.map"
   },
   "entrypoints": [
-    "static/js/main.647d4a11.js"
+    "static/js/main.50b4d17b.js"
   ]
 }
