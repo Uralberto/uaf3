@@ -1,4 +1,0 @@
-<svg id="btn-play" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
-  <path id="Trazado_4" data-name="Trazado 4" d="M12.5,0A12.5,12.5,0,1,1,0,12.5,12.5,12.5,0,0,1,12.5,0Z" fill="#e7e4e7"/>
-  <path id="poligono" d="M0,0,6.938,11,14,0Z" transform="translate(8.611 19.167) rotate(-90)" fill="#e7e4e7" stroke="#272839" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-</svg>

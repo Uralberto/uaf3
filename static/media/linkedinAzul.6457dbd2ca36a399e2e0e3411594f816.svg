@@ -1,9 +1,0 @@
-<svg id="linkedinAzul" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30">
-  
-  <g >
-    <rect x="3" y="2" width="25" height="25" fill="#2337f1" rx="5" ry="5"/>
-  </g>
-
-<path id="linkedinAzul" data-name="linkedin" d="M9.172,19.3H6.25V9.071H9.172ZM7.711,7.61A1.461,1.461,0,1,1,9.172,6.149,1.46,1.46,0,0,1,7.711,7.61ZM19.4,19.3H16.478V13.454a1.461,1.461,0,0,0-2.922,0V19.3H10.633V9.071h2.922v1.813c.6-.827,1.525-1.813,2.557-1.813A3.483,3.483,0,0,1,19.4,12.724Z" transform="translate(3 1.014)" fill="#ffffff"/>
-
-</svg>
