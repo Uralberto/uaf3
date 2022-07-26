@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 import styled, { createGlobalStyle } from "styled-components";
 import Home from "@pages/Home";
 import ItemsNav from "@pages/ItemsNav";
@@ -18,12 +18,12 @@ import ImagenVectorialDos from "@pages/ImagenVectorialDos";
 import NotFound from "@pages/NotFound";
 import Header from "../components/Header";
 
-// import "@styles/global.css";
-
 const App = () => {
   return (
     <>
-      <BrowserRouter basename={process.env.PUBLIC_URL}  >
+      {/* <BrowserRouter basename={process.env.PUBLIC_URL}> */}
+
+      <HashRouter>
         <EstilosGlobales />
         <Switch>
           <Route exact path="/" component={Home} />
@@ -42,7 +42,7 @@ const App = () => {
           <Route exact path="/animacionesDos" component={ImagenVectorialDos} />
           <Route path="*" component={NotFound} />
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 };

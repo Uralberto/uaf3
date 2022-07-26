@@ -31,8 +31,7 @@ module.exports = {
           loader: "babel-loader",
           options: {
             presets: ["@babel/preset-env", "@babel/preset-react"],
-          }
-
+          },
         },
       },
       {
@@ -49,8 +48,11 @@ module.exports = {
       },
 
       {
-        test: /\.(png|svg|jpg|gif)$/,
-        type: "asset",
+        test: /\.(svg|png|jpg|gif)$/,
+        type: "asset/resource",
+        generator: {
+          filename: "assets/[hash][ext][query]",
+        },
       },
     ],
   },

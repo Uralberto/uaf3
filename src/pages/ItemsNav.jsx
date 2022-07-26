@@ -84,7 +84,7 @@ const animarBgImg = keyframes`
   0%{
     background-image: url("${persianaVertical}");
     background-repeat: repeat-x;
-    background-size: 5px  5% ;
+    background-size: 0  100% ;
     background-position: center center; 
   } 
 
@@ -108,22 +108,11 @@ const Div = styled.div`
   display: grid;
   grid-template: 10vh 65vh 18vh / 1fr;
   position: relative;
-
-  @media (min-width: 375px) {
-    grid-template: 10vh 65vh 18vh/ 1fr;
-  }
-
-  @media (min-width: 600px) {
-    grid-template: 10vh 65vh 18vh/ 1fr;
-  }
-
-  @media (min-width: 700px) {
-    grid-template: 10vh 65vh 18vh/ 1fr;
-  }
 `;
 
 const Nav = styled.nav`
   animation: ${animarBgImg} 2s ease-in-out forwards;
+  margin-bottom: 30px;
 `;
 
 const UlItemsNav = styled.ul`

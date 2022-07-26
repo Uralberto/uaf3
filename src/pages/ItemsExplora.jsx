@@ -100,7 +100,7 @@ const ItemsExplora = (props) => {
 
             <h2> Explora</h2>
           </DivCabecera>
-          <nav>
+          <Nav>
             <UlItemsExplora ref={ulRef}>
               {subItems.map((subItem) => (
                 <li key={`itemsExplora${subItem.id}`}>
@@ -110,7 +110,7 @@ const ItemsExplora = (props) => {
                 </li>
               ))}
             </UlItemsExplora>
-          </nav>
+          </Nav>
         </div>
       ) : (
         <Redirect to="/itemsNav" />
@@ -144,9 +144,13 @@ const DivCabecera = styled.div`
   }
 `;
 
+const Nav = styled.nav`
+  padding-bottom: 50px;
+`;
+
 const UlItemsExplora = styled.ul`
   padding-top: 15px;
-  height: 60vh;
+  height: auto;
   width: 100%;
 
   li {
