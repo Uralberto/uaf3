@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, Redirect } from "react-router-dom";
+import { Link, Redirect, useHistory } from "react-router-dom";
 import styled from "styled-components";
 import BtnRegresar from "@components/BtnRegresar";
 import BtnArriba from "@components/BtnArriba";
@@ -15,9 +15,15 @@ const TeCuentoCuerpo = () => {
     setState(!state);
   };
 
+  const history = useHistory();
+  const regresar = () => {
+    history.push("/explora");
+  };
+
+
   return (
     <>
-      <span id="head"></span>
+   
       <Header toggleState={toggleState} state={state} />
       {!state ? (
         <DivCuerpo>
@@ -266,14 +272,18 @@ const TeCuentoCuerpo = () => {
               <i>github.com/Uralberto/uaf3</i>
             </MyA>
           </p>
-          <FlechaArriba href="#head">
-            <BtnArriba />
+          <FlechaArriba >
+          <Link to="/TeCuentoCabecera">
+              <BtnArriba />
+          </Link>
           </FlechaArriba>
+          
         </DivCuerpo>
       ) : (
         <Redirect to="/itemsNav" />
       )}
 
+<BtnRegresar regresar={regresar} />
       <Footer />
     </>
   );
@@ -359,7 +369,7 @@ const EnlacesParaDev = styled.p`
   flex-direction: column;
 `;
 
-const FlechaArriba = styled.a`
+const FlechaArriba = styled.div`
   position: sticky;
   bottom: 50px;
 `;
