@@ -47,11 +47,11 @@ const Yo = () => {
               <DivObjetivoProfesional>
                 <h3>Objetivo profesional</h3>
                 <p>
-                  Contribuir a proyectos web aportando conocimiento como
-                  desarrollador <i>frontend</i> en entornos donde la empatía
-                  ocupe un espacio importante como cultura de trabajo. Busco
-                  afianzar el conocimiento ganado como autodidacta, persistir en
-                  el aprendizaje de nuevo conocimiento y crecer de manera
+                  Aportar conocimiento como
+                  desarrollador <i>frontend</i> en espacios de trabajo 
+                  donde el respeto y la empatía sean importantes como cultura organizacional. Quiero
+                  afianzar el conocimiento ganado como autodidacta y persistir en
+                  el aprendizaje de nuevo conocimiento para crecer de manera
                   sostenida en el amplio universo <i>frontend</i>.
                 </p>
               </DivObjetivoProfesional>
@@ -84,15 +84,18 @@ const Yo = () => {
                 <p>
                   {" "}
                   Proveedor de servicios relacionados con la profesión. No menos
-                  de 50 proyectos de diverso tipo, públicos y privados,
+                  de 50 proyectos de diversa tipología, públicos y privados,
                   ejecutados en los últimos 20 años. Destaco la construcción de
                   edificaciones nuevas, el mejoramiento y/o mantenimiento de
                   edificaciones, obras de urbanismo, dirección de obra a
                   terceros e interventorías.
                 </p>
+
+
+                
               </DivExpProf>
 
-              <DivExpProf>
+              {/* <DivExpProf>
                 <h4>Experiencia relevante anterior a 1999</h4>
                 <DivExpDescripcion className="cv__experiencia-descripcion cv__experiencia-anterior-1999">
                   <DivExpDescripcionItem>
@@ -128,7 +131,7 @@ const Yo = () => {
                     </p>
                   </DivExpDescripcionItem>
                 </DivExpDescripcion>
-              </DivExpProf>
+              </DivExpProf> */}
 
               <DivHistoriaAcademica>
                 <h3>Historia académica</h3>
